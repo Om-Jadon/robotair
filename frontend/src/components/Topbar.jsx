@@ -106,11 +106,11 @@ const TopBar = ({ logs, setLogs }) => {
 
   useEffect(() => {
     fetchLogs();
-  }, [severity, fetchLogs]);
+  }, [severity]);
 
   useEffect(() => {
     fetchLogs();
-  }, [uploadStatus, fetchLogs]);
+  }, [uploadStatus]);
 
   const handleSearchClick = () => {
     fetchLogs();

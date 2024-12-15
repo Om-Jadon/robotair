@@ -1,0 +1,148 @@
+[2024-12-11 11:31:58] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:32:47] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:32:31] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:32:43] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:34:18] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:33:42] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:34:05] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:34:14] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:36:40] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:34:56] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:35:38] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:33:35] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:37:10] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:38:00] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:35:52] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:39:33] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:38:12] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:39:05] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:38:08] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:39:42] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:40:51] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:36:51] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:39:48] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:43:47] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:36:38] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:36:03] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:41:52] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:40:44] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:44:07] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:46:47] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:44:02] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:40:36] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:39:27] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:40:43] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:47:25] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:37:18] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:36:50] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:42:25] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:45:46] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:44:53] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:45:56] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:43:23] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:50:31] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:39:25] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:39:18] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:44:31] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:45:27] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:39:05] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:50:50] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:50:50] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:46:56] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:43:02] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:50:36] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:48:01] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:52:00] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:48:35] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:42:10] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:52:10] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:38:20] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:42:03] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:40:38] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:40:51] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:40:52] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:53:44] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:48:05] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:44:14] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:44:52] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:57:35] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:01:32] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:47:14] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 12:01:14] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:47:36] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:50:54] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:45:03] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:40:50] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:40:41] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:57:40] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:41:37] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:05:25] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 12:01:56] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:54:09] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:50:35] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:58:57] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:55:38] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:02:25] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:58:55] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:46:13] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:09:35] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:48:47] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:52:41] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:52:41] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:46:36] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:05:01] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:04:55] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 12:09:48] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 12:10:09] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:55:48] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:45:02] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:55:51] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 12:17:03] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:55:04] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:18:51] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:54:22] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 12:01:49] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 12:09:29] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:58:49] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 11:50:50] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:59:17] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 12:09:24] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 12:07:37] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 12:06:16] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 12:21:24] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:46:33] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:49:36] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:08:56] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 11:53:10] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:05:35] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:46:21] [INFO] [/lidar_processor] Path planned successfully to goal.
+[2024-12-11 11:59:05] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:09:32] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:53:49] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:23:14] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:00:19] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 12:02:40] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:05:32] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 11:52:28] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 12:13:04] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:21:59] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 11:54:06] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:57:49] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:55:44] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:05:51] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 12:04:57] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:20:47] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:02:26] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 12:16:14] [INFO] [/path_planner] Robot started successfully.
+[2024-12-11 11:49:31] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 12:05:57] [INFO] [/path_planner] Image frame received from camera.
+[2024-12-11 11:54:16] [INFO] [/path_planner] Lidar scan completed.
+[2024-12-11 11:57:34] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:23:37] [INFO] [/path_planner] Path planned successfully to goal.
+[2024-12-11 12:17:12] [INFO] [/path_planner] Publishing odometry data.
+[2024-12-11 12:22:25] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:09:52] [INFO] [/odom_publisher] Path planned successfully to goal.
+[2024-12-11 12:13:08] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:50:54] [INFO] [/camera_driver] Path planned successfully to goal.
+[2024-12-11 12:31:24] [INFO] [/controller] Path planned successfully to goal.
+[2024-12-11 11:49:42] [INFO] [/odom_publisher] Path planned successfully to goal.

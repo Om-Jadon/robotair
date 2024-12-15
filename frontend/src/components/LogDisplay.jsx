@@ -8,7 +8,9 @@ import {
   Paper,
   Typography,
   Box,
+  Container,
 } from "@mui/material";
+import Button from "@mui/material/Button";
 
 const formatDate = (timestamp) => {
   const date = new Date(timestamp);
@@ -34,6 +36,21 @@ const getSeverityStyle = (severity) => {
 };
 
 function LogDisplay({ logs }) {
+  const downloadLogs = (logs) => {
+    const logContent = logs
+      .map((log) => {
+        return `[${log.timestamp}] [${log.severity}] [${log.node}] ${log.message}.`;
+      })
+      .join("\n");
+
+    const blob = new Blob([logContent], { type: "text/plain;charset=utf-8;" });
+
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "filtered_logs.log";
+    link.click();
+  };
+
   return (
     <Box
       sx={{
@@ -42,11 +59,26 @@ function LogDisplay({ logs }) {
         flexDirection: "column",
       }}
     >
-      <Typography variant="h6" color="textSecondary" gutterBottom>
-        {logs && logs.length > 0
-          ? `${logs.length} logs found`
-          : "No logs found"}
-      </Typography>
+      <Container
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          marginBottom: "1rem",
+          minWidth: "100%",
+        }}
+      >
+        <Typography variant="h6" color="textSecondary" gutterBottom>
+          {logs && logs.length > 0 ? `${logs.length} logs found` : ""}
+        </Typography>
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={() => downloadLogs(logs)}
+        >
+          Download Logs
+        </Button>
+      </Container>
 
       {logs && logs.length > 0 ? (
         <TableContainer
