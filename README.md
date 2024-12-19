@@ -1,6 +1,7 @@
 # Log Viewer Application
 
 This is a React-based Log Viewer application with a Flask backend. It allows users to upload log files, filter logs based on severity and search terms, and download filtered logs as a `.log` file.
+Front end deployed on: https://lighthearted-tartufo-c3a80a.netlify.app/
 
 ## Features
 
