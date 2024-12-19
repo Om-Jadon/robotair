@@ -54,7 +54,7 @@ function LogDisplay({ logs }) {
   return (
     <Box
       sx={{
-        padding: "1rem",
+        paddingY: "1rem",
         display: "flex",
         flexDirection: "column",
       }}
@@ -85,7 +85,7 @@ function LogDisplay({ logs }) {
           component={Paper}
           sx={{
             flexGrow: 1,
-            maxHeight: "75vh",
+            maxHeight: "80vh",
             overflowY: "auto",
             boxShadow: 3,
             borderRadius: "8px",
@@ -94,22 +94,42 @@ function LogDisplay({ logs }) {
           <Table stickyHeader>
             <TableHead>
               <TableRow sx={{ backgroundColor: "#f5f5f5" }}>
-                <TableCell>
+                <TableCell
+                  sx={{
+                    fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                    padding: { xs: "4px", sm: "8px" },
+                  }}
+                >
                   <Typography variant="subtitle2" fontWeight="bold">
                     Timestamp
                   </Typography>
                 </TableCell>
-                <TableCell>
+                <TableCell
+                  sx={{
+                    fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                    padding: { xs: "4px", sm: "8px" },
+                  }}
+                >
                   <Typography variant="subtitle2" fontWeight="bold">
                     Severity
                   </Typography>
                 </TableCell>
-                <TableCell>
+                <TableCell
+                  sx={{
+                    fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                    padding: { xs: "4px", sm: "8px" },
+                  }}
+                >
                   <Typography variant="subtitle2" fontWeight="bold">
                     Node
                   </Typography>
                 </TableCell>
-                <TableCell>
+                <TableCell
+                  sx={{
+                    fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                    padding: { xs: "4px", sm: "8px" },
+                  }}
+                >
                   <Typography variant="subtitle2" fontWeight="bold">
                     Message
                   </Typography>
@@ -119,12 +139,39 @@ function LogDisplay({ logs }) {
             <TableBody>
               {logs.map((log, index) => (
                 <TableRow key={index} hover>
-                  <TableCell>{formatDate(log.timestamp)}</TableCell>
-                  <TableCell style={getSeverityStyle(log.severity)}>
+                  <TableCell
+                    sx={{
+                      fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                      padding: { xs: "4px", sm: "8px" },
+                    }}
+                  >
+                    {formatDate(log.timestamp)}
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                      padding: { xs: "4px", sm: "8px" },
+                    }}
+                    style={getSeverityStyle(log.severity)}
+                  >
                     {log.severity}
                   </TableCell>
-                  <TableCell>{log.node}</TableCell>
-                  <TableCell>{log.message}</TableCell>
+                  <TableCell
+                    sx={{
+                      fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                      padding: { xs: "4px", sm: "8px" },
+                    }}
+                  >
+                    {log.node}
+                  </TableCell>
+                  <TableCell
+                    sx={{
+                      fontSize: { xs: "0.8rem", sm: "0.9rem" },
+                      padding: { xs: "4px", sm: "8px" },
+                    }}
+                  >
+                    {log.message}
+                  </TableCell>
                 </TableRow>
               ))}
             </TableBody>
