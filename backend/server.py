@@ -1,10 +1,15 @@
 from flask import Flask, request, jsonify 
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 CORS(app)
 
 total_logs = []
+
+@app.route("/")
+def home():
+    return "Flask server is running!"
 
 @app.route('/upload', methods=['POST'])
 def upload_log():
@@ -57,5 +62,7 @@ def parse_logs(content):
 
     return parsed_logs
 
+
 if __name__ == '__main__':
-    app.run(port=5001)
+    port = int(os.environ.get('PORT', 5001))
+    app.run(port=port, debug=False)
